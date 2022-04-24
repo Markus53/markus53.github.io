@@ -5045,6 +5045,10 @@ a.badge:focus {
   .jumbotron .h1 {
     font-size: 63px;
   }
+  @media only screen and (max-width:620px) {
+    .menu, .main, .right {
+      widht: 100%;
+    }
 }
 .thumbnail {
   display: block;
